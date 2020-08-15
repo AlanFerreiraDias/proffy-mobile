@@ -28,6 +28,20 @@ const colors =
     pageHeader: {
         backGround: '#8257e5',
         title: '#FFF'
+    },
+    TeacherItem: {
+        background: '#FFF',
+        border: '#e6e6f0',
+        avatarBackground: '#eee',
+        name: '#32264d',
+        subject: '#6a6180',
+        bio: '#6a6180',
+        footer: '#fafafc',
+        price: '#6a6180',
+        priceValue: '#8257e5',
+        favoriteButton: '#8257e5',
+        contactButton: '#04d361',
+        contactButtonText: '#FFF'
     }
 }
 
