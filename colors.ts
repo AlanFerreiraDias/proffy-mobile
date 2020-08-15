@@ -14,6 +14,20 @@ const colors =
         title: '#FFF',
         description: '#d4c2ff',
         okButtonText: '#FFF',
+    },
+    teacherList: {
+        backGround: '#f0f0f7'
+    },
+    studyTab: {
+        inactiveBackGround: '#fafafc',
+        activeBackGround: '#ebebf5',
+        inactiveTint: '#c1bccc',
+        activeTint: '#32364d',
+        focusedIcon: '#8257e5'
+    },
+    pageHeader: {
+        backGround: '#8257e5',
+        title: '#FFF'
     }
 }
 
