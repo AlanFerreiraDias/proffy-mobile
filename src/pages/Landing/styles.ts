@@ -1,10 +1,12 @@
 import { StyleSheet, Button } from 'react-native';
 import colors from '../../../colors'
 
+const landing = colors.landing
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: colors.backGround,
+        backgroundColor: landing.backGround,
         // alignItems: 'center',
         justifyContent: 'center',
         padding: 50
@@ -17,7 +19,7 @@ const styles = StyleSheet.create({
 
     title: {
         fontFamily: 'Poppins_400Regular',
-        color: colors.title,
+        color: landing.title,
         fontSize: 20,
         lineHeight: 30,
         marginTop: 80,
@@ -36,34 +38,33 @@ const styles = StyleSheet.create({
     button: {
         height: 150,
         width: '48%',
-        backgroundColor: colors.buttonBackground,
+        backgroundColor: landing.buttonBackground,
         borderRadius: 8,
         padding: 24,
         justifyContent: 'space-between'
     },
 
     buttonPrimary: {
-        backgroundColor: colors.buttonPrimaryBackGround
+        backgroundColor: landing.buttonPrimaryBackGround
     },
 
     buttonSecondary: {
-        backgroundColor: colors.buttonSecondaryBackGround
+        backgroundColor: landing.buttonSecondaryBackGround
     },
 
     buttonText: {
         fontFamily: 'Archivo_700Bold',
-        color: colors.buttonText
+        color: landing.buttonText
     },
 
     totalConnections: {
         fontFamily: 'Poppins_400Regular',
-        color: colors.totalConnections,
+        color: landing.totalConnections,
         fontSize: 12,
         lineHeight: 20,
         maxWidth: 140,
         marginTop: 40,
-    }
-
+    },
 
 });
 
