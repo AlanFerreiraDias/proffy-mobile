@@ -53,8 +53,16 @@ const styles = StyleSheet.create({
     buttonText: {
         fontFamily: 'Archivo_700Bold',
         color: colors.buttonText
-    }
+    },
 
+    totalConnections: {
+        fontFamily: 'Poppins_400Regular',
+        color: colors.totalConnections,
+        fontSize: 12,
+        lineHeight: 20,
+        maxWidth: 140,
+        marginTop: 40,
+    }
 
 
 });

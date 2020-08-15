@@ -5,7 +5,8 @@ const colors =
     buttonBackground: '#333',
     buttonPrimaryBackGround: '#9871f5',
     buttonSecondaryBackGround: '#04d361',
-    buttonText: '#FFF'
+    buttonText: '#FFF',
+    totalConnections: '#d4c2ff'
 }
 
 export default colors
