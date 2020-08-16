@@ -9,8 +9,51 @@ const styles = StyleSheet.create({
         backgroundColor: teacherList.backGround
     },
     teacherList: {
-        marginTop: -60,
-    }
+        marginTop: -40,
+    },
+
+    searchForm: {
+        marginBottom: 24,
+    },
+
+    label: {
+        color: teacherList.label,
+        fontFamily: 'Poppins_400Regular'
+    },
+
+    inputGroup: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+
+    inputBlock: {
+        width: '48%'
+    },
+
+    input: {
+        height: 54,
+        backgroundColor: teacherList.input,
+        borderRadius: 8,
+        justifyContent: 'center',
+        paddingHorizontal: 16,
+        marginTop: 4,
+        marginBottom: 16
+    },
+
+    submitButton: {
+        backgroundColor: teacherList.submitButton,
+        height: 56,
+        borderRadius: 8,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+
+    submitButtonText: {
+        color: teacherList.submitButtonText,
+        fontFamily: 'Archivo_700Bold',
+        fontSize: 16,
+    },
 })
 
 export default styles
