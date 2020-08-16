@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     },
 
     favorited: {
-        backgroundColor: '#e33d3d',
+        backgroundColor: teacherItem.favorited,
     },
 
     contactButton: {
