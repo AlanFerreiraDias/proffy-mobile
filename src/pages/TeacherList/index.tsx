@@ -8,6 +8,7 @@ import TeacherItem, { Teacher } from '../../components/TeacherItem';
 import { TextInput, BorderlessButton, RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons'
 import api from '../../services/api';
+import { useFocusEffect } from '@react-navigation/native';
 
 function TeacherList() {
 
@@ -28,6 +29,10 @@ function TeacherList() {
             }
         })
     }
+
+    useFocusEffect(() => {
+        loadFavorites()
+    })
 
 
     function handleToggleFiltersVisible() {
