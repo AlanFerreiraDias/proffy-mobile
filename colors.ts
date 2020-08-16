@@ -16,7 +16,12 @@ const colors =
         okButtonText: '#FFF',
     },
     teacherList: {
-        backGround: '#f0f0f7'
+        backGround: '#f0f0f7',
+        input: '#FFF',
+        label: '#d4c2ff',
+        submitButton: '#04d361',
+        submitButtonText: '#FFF'
+
     },
     studyTab: {
         inactiveBackGround: '#fafafc',
@@ -39,6 +44,7 @@ const colors =
         footer: '#fafafc',
         price: '#6a6180',
         priceValue: '#8257e5',
+        favorited: '#e33d3d',
         favoriteButton: '#8257e5',
         contactButton: '#04d361',
         contactButtonText: '#FFF'
